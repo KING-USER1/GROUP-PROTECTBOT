@@ -418,7 +418,7 @@ will result in restricting that user.
  `1w` = 1 week
  """
 
-__mod_name__ = "Anti-Flood"
+__mod_name__ = "A͎n͎t͎i͎-F͎l͎o͎o͎d͎"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.group, check_flood
