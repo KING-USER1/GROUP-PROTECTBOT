@@ -51,11 +51,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello {}, I'm 𖣘 𝗧𝗵𝗲 𝗡𝗢𝗼𝗕 𖣘
+Hi {},I'm 𖣘𝗧𝗵𝗲 𝗡𝗢𝗼𝗕𖣘
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
-✪ Make sure you Joined My Channel and Group By Clicking Button Below ✪.
+✪ Join My Channel and Group By Clicking Button Below ✪.
 
 Send /help To Check Available Commands.
 """
