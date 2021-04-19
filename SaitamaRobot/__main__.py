@@ -198,20 +198,20 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
+                            text=" 👑 Add Me ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" 🔔 Updates ",
-                             url="https://t.me/levibot_official")
+                             text=" 🔔 Channel ",
+                             url="https://t.me/Kannada_HD_Films")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ My Master ",
-                            url="https://t.me/no_friends_needed"),
+                            url="https://t.me/The_Noob_Hackerr"),
                          InlineKeyboardButton(
                             text=" ⚡️ Support group",
-                             url="https://t.me/joinchat/QIBCivQvB7FkNDZh")        
+                             url="https://t.me/Kannada_Films_Request")        
                        
                      ],
                      [
