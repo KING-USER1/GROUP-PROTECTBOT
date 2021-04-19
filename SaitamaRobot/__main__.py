@@ -219,8 +219,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                         InlineKeyboardButton(
-                             text=" ❤️ Source Code ",
-                             url="https://telegra.ph/file/0ea6fd755a2c0b03b072d.mp4")
+                             text=" 🤝 Help ",
+                             url="http://t.me/The_NOoB_HackerR_BoT?start=help")
                     
                     ]]))
     else:
