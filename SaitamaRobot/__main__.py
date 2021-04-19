@@ -57,7 +57,7 @@ I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managi
 
 ✪ Join My Channel and Group By Clicking Button Below ✪.
 
-Send /help To Check Available Commands.
+Click Help To Check Available Commands.
 """
 
 HELP_STRINGS = """
