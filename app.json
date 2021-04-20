@@ -1,15 +1,15 @@
 {
-      "name": "SenkuRobot",
+      "name": "The Hacker",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Senku"
+         "Hacker"
       ],   
-   "repository": "https://github.com/FtSasaki/SenkuRobot",
-   "logo": "https://64.media.tumblr.com/0b9df3c98abd7506f0aa20c7ae11cb44/15b7ca8e73e46fcc-e4/s640x960/8c4da729e10aaff950d29eaefd8e222aad5de164.jpg",
+   "repository": "https://github.com/DangerHackerRJ/SenkuRobot",
+   "logo": "https://telegra.ph/file/40c14da00cae28ecec42c.jpg",
    "addons": [
     {
          "options": {
