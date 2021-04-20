@@ -1,1 +1,1 @@
-Find Me On Telegram as [The Noob](https://t.me/The_Noob_HackerR_Bot)
+Find This Bot On Telegram as [The Hacker](https://t.me/The_Noob_HackerR_Bot)
