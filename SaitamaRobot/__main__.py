@@ -51,11 +51,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {},I'm 𖣘𝗧𝗵𝗲 𝗡𝗢𝗼𝗕𖣘
+Hi {},I'm 𖣘 𝖠𝖭𝖩𝖨 𝖪𝖨𝖢𝖢𝖧𝖠 𖣘
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
-✪ Join My Channel and Group By Clicking Button Below ✪.
+✪ Join My Groups By Clicking Button Below ✪.
 
 Click Help To Check Available Commands.
 """
@@ -64,13 +64,13 @@ HELP_STRINGS = """
 Hey there! My name Is .
 
 
-*Main* commands:[𖣘 𝗧𝗵𝗲 𝗡𝗢𝗼𝗕 𖣘](https://telegra.ph/file/947c3ff79fce9050c5a25.jpg)
+*Main* commands:𖣘 𝑨𝒏𝒋𝒊 𝑲𝒊𝒄𝒄𝒉𝒂 𖣘
  ⍟ /help: PM's you this message.
  ⍟ /help <module name>: PM's you info about that module.
  ⍟ /donate: information on how to donate!
  ⍟ /settings:
  ⍟ in PM: will send you your settings for all supported modules.
- ⍟ in a group: will redirect you to pm, with all that chat's settings.
+ ⍟ in a group: will redirect you to pm, with all that chat's settings[.](https://telegra.ph/file/4f2039d807a346f6baf69.jpg)
 
 
 {}
@@ -79,7 +79,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/7c5c564e0b2117872e194.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/972d081923b43e4dab526.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Channel ",
-                             url="https://t.me/Kannada_HD_Films")
+                             url="https://t.me/AnjikicchaMovies1")
                      ],
                      [
                         InlineKeyboardButton(
@@ -214,13 +214,13 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/The_Noob_Hackerr"),
                          InlineKeyboardButton(
                             text=" ⚡️ Support group",
-                             url="https://t.me/Kannada_Films_Request")        
+                             url="https://t.me/AnjikicchaGroup")        
                        
                      ],
                      [
                         InlineKeyboardButton(
                              text=" 🤝 Help ",
-                             url="http://t.me/The_NOoB_HackerR_BoT?start=help")
+                             url="http://t.me/AnjiKicchaNewUserBot?start=help")
                     
                     ]]))
     else:
