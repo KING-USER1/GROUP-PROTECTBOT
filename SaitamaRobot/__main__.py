@@ -70,7 +70,7 @@ Hey there! My name Is .
  ⍟ /donate: information on how to donate!
  ⍟ /settings:
  ⍟ in PM: will send you your settings for all supported modules.
- ⍟ in a group: will redirect you to pm, with all that chat's settings[.](https://telegra.ph/file/4f2039d807a346f6baf69.jpg)
+ ⍟ in a group: will redirect you to pm, with all that chat's settings[.](https://telegra.ph/file/947c3ff79fce9050c5a25.jpg)
 
 
 {}
@@ -79,7 +79,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/972d081923b43e4dab526.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/40c14da00cae28ecec42c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
@@ -201,7 +201,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Add Me ",
+                            text=" 👑 Add  Me ",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
