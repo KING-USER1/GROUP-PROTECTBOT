@@ -51,7 +51,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {},I'm 𖣘 𝖠𝖭𝖩𝖨 𝖪𝖨𝖢𝖢𝖧𝖠 𖣘
+Hi {},I'm 𖣘 The Hacker 𖣘
 
 I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group
 
@@ -64,7 +64,7 @@ HELP_STRINGS = """
 Hey there! My name Is .
 
 
-*Main* commands:𖣘 𝑨𝒏𝒋𝒊 𝑲𝒊𝒄𝒄𝒉𝒂 𖣘
+*Main* commands:𖣘 The Hacker 𖣘
  ⍟ /help: PM's you this message.
  ⍟ /help <module name>: PM's you info about that module.
  ⍟ /donate: information on how to donate!
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text=" 🔔 Channel ",
-                             url="https://t.me/AnjikicchaMovies1")
+                             url="https://t.me/Kannada_Hd_Films")
                      ],
                      [
                         InlineKeyboardButton(
@@ -214,13 +214,13 @@ def start(update: Update, context: CallbackContext):
                             url="https://t.me/The_Noob_Hackerr"),
                          InlineKeyboardButton(
                             text=" ⚡️ Support group",
-                             url="https://t.me/AnjikicchaGroup")        
+                             url="https://t.me/KannadaFilmsRequest")        
                        
                      ],
                      [
                         InlineKeyboardButton(
                              text=" 🤝 Help ",
-                             url="http://t.me/AnjiKicchaNewUserBot?start=help")
+                             url="http://t.me/The_NOoB_HackerR_BoT?start=help")
                     
                     ]]))
     else:
